@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF‑8" />
+  <meta name="viewport" content="width=device‑width, initial‑scale=1.0" />
+  <title>GameSam – Play with Power</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">GameSam</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#games">Games</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#login" class="btn">Login</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to GameSam</h1>
+      <p>Unleash the gamer in you. Discover. Play. Conquer.</p>
+      <a href="#games" class="cta-btn">Browse Games</a>
+    </div>
+  </section>
+
+  <section id="games" class="games-section">
+    <h2>Top Games</h2>
+    <div class="games-grid">
+      <div class="game-card" style="background-image: url('images/game1.jpg');">
+        <div class="overlay">
+          <h3>Game 1</h3>
+          <p>Epic action adventure</p>
+        </div>
+      </div>
+      <div class="game-card" style="background-image: url('images/game2.jpg');">
+        <div class="overlay">
+          <h3>Game 2</h3>
+          <p>Multiplayer shooter</p>
+        </div>
+      </div>
+      <div class="game-card" style="background-image: url('images/game3.jpg');">
+        <div class="overlay">
+          <h3>Game 3</h3>
+          <p>Survival horror</p>
+        </div>
+      </div>
+      <div class="game-card" style="background-image: url('images/game4.jpg');">
+        <div class="overlay">
+          <h3>Game 4</h3>
+          <p>RPG epic saga</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <h2>About GameSam</h2>
+    <p>GameSam is the ultimate destination for gamers around the world. Built by players, for players.</p>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <section id="login" class="login-section">
+    <h2>Login to GameSam</h2>
+    <form>
+      <input type="text" placeholder="Username" required />
+      <input type="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 GameSam. All rights reserved.</p>
+  </footer>
+</body>
+</html>
